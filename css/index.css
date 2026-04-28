@@ -37,17 +37,19 @@
 }
 
 #username-section {
-    border: 2px solid gainsboro;
+    padding-left: 20px;
+    border: 0px solid gainsboro;
     height: 30px;
     width: 30%;
     margin-top: 10px;
 }
 
 #writing-space { 
+    padding: 20px;
     margin-right: 10px;
     margin-top: -90px;
     border: 2px solid gainsboro;
-    color: gainsboro;
+    color: black;
     margin-left: 140px;
     height: 80%;
     border-radius: 40px;
