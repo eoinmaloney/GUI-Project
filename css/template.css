@@ -1,0 +1,19 @@
+body {
+    background-color: #18314f;
+}
+
+.page-title {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 200;
+    text-align: center;
+}
+
+.home-banner {
+    background-color: white;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    font-size: 50;
+}

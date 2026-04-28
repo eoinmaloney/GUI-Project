@@ -1,0 +1,13 @@
+
+
+.posting-container {
+    background-color: white;
+    border-radius: 10px;
+    height: 1000px;
+    margin: 10px;
+    margin-bottom: 150px;
+}
+
+.index .btn{
+    padding-top: 20px;
+}
