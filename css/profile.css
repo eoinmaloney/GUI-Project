@@ -1,0 +1,21 @@
+
+#page-container{
+    justify-content: center;
+    border: 2px solid gainsboro;
+    width: 98%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#profile-container{
+    margin: 20px auto;
+    border: 2px solid gainsboro;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+#profile-details{
+    margin-left: 20%;
+}
