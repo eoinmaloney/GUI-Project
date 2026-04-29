@@ -7,7 +7,7 @@ body {
 .page-title {
     margin-bottom: 10px;
     color: white;
-    font-size: 200;
+    font-size: 200px;
     text-align: center;
     font-family: "Passero One", sans-serif;
     font-weight: 400;
@@ -20,5 +20,9 @@ body {
     justify-content: center;
     display: flex;
     gap: 20px;
-    font-size: 50;
+    font-size: 50px;
+}
+
+.index {
+    padding-top: 20px;
 }
