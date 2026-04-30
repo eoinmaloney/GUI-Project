@@ -13,6 +13,10 @@
     color: white;
 }
 
+#username-title{
+    color: white;
+}
+
 #sign-up-continer{
     flex-direction: column;
     display: flex;
