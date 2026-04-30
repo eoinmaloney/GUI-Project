@@ -17,6 +17,10 @@
     color: white;
 }
 
+#message{
+    color: white;
+}
+
 #sign-up-continer{
     flex-direction: column;
     display: flex;
