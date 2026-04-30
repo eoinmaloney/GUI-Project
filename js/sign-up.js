@@ -10,5 +10,4 @@ function saveSignup() {
     localStorage.setItem("signup_email", email);
     localStorage.setItem("signup_password", password);
 
-    document.getElementById("message").innerText = "Details saved!";
 }
