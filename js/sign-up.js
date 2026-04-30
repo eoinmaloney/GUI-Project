@@ -14,3 +14,22 @@ function saveSignup() {
     }
     
 }
+
+function login() {
+    var emailInput = document.getElementById("login-email").value;
+    var passwordInput = document.getElementById("login-password").value;
+
+    var storedEmail = localStorage.getItem("signup_email");
+    var storedPassword = localStorage.getItem("signup_password");
+
+    if (storedEmail === null) {
+        document.getElementById("login-message").innerText = "No account found. Please sign up first.";
+        return;
+    }
+
+    if (emailInput === storedEmail && passwordInput === storedPassword) {
+        window.location.href = "profile.html"; // Redirect on success
+    } else {
+        document.getElementById("login-message").innerText = "Incorrect email or password.";
+    }
+}
