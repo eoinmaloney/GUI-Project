@@ -13,12 +13,12 @@
     </head>
     <body>
         <!-- PAGE TITLE -->
-        <div class="page-title"> <!-- I just changed this from a h1 tag so it gets caught by the template CSS file -->
+        <div class="page-title">
             LUMOS
             <i class="bi bi-lightbulb-fill"></i>
         </div>
     
-        <div class="home-banner"> <!-- And I also added this banner-->
+        <div class="home-banner">
             <div id="index">
                 <a href="index.html"> Home </a>
             </div>
@@ -29,32 +29,50 @@
                 <a href="sign-up.html"> Sign-up </a>
             </div>
         </div>
-        <div id="sign-up-continer">
-            
-            <br><br><br><br><br> <!-- Add space between homebar and input boxes-->
 
-            <!-- Email div-->
+        <div id="sign-up-continer">
+
+            <br><br><br><br><br>
+
+            <!-- LOGIN SECTION -->
+            <h2 id="sign-up-label">Login</h2>
+            <div>
+                <label id="email-title" for="login-email">Email:</label>
+                <input id="login-email" type="email">
+            </div>
+            <br>
+            <div>
+                <label id="password-title" for="login-password">Password:</label>
+                <input id="login-password" type="password">
+            </div>
+            <br>
+            <button onclick="login()">Login</button>
+            <p id="login-message"></p>
+
+            <hr style="border-color: white; width: 80%; margin: 20px auto;">
+
+            <!-- SIGN UP SECTION -->
+            <h2 id="sign-up-label">Create Account</h2>
             <div>
                 <label id="email-title" for="email">Email:</label>
                 <input id="email" type="email">
             </div>
             <br>
-            <!-- Username div-->
             <div>
                 <label id="username-title" for="username">Username:</label>
                 <input id="username" type="username">
             </div>
             <br>
-            <!-- Password div-->
             <div>
                 <label id="password-title" for="password">Password:</label>
                 <input id="password" type="password">
             </div>
             <br>
             <button onclick="saveSignup()">Create Account</button>
-            
+
             <p id="message"></p>
         </div>
+
         <script src="../js/sign-up.js"></script>
     
     </body>
