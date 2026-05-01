@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 
 /* FORMATTING TAGS */
-.posting-container {
+#posting-container {
     background-color: white;
     border-radius: 10px;
     height: 1000px;

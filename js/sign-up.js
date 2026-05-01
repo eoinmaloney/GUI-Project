@@ -11,6 +11,7 @@ function saveSignup() {
         localStorage.setItem("signup_email", email);
         localStorage.setItem("signup_password", password);
         localStorage.setItem("signup_username", username);
+        alert("Account Created, please sign in")
     }
     
 }
