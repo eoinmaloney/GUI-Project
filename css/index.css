@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 
-/* FORMATTING TAGS */
+/* FORMATTING TAGS Eoin */
 #posting-container {
     background-color: white;
     border-radius: 10px;
@@ -15,7 +15,7 @@
     border-radius: 10px;
     margin: 20px auto;
     width: 98%;
-    height: 100%px; /* No idea why but when I remove the px it breaks everything */
+    height: 100%px; /* No idea why but when I remove the px it breaks everything Eoin*/
     min-height: 50px;
     background-color: white;
     border: 2px solid gainsboro;
@@ -55,7 +55,7 @@
     align-self: center;
 }
 
-/* CREATING A POST */
+/* CREATING A POST Eoin*/
 
 #create-post-container {
     position: sticky;

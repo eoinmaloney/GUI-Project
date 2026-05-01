@@ -1,21 +1,21 @@
-// VARIABLES
+// VARIABLES Eoin
 
-//Containers
+//Containers Eoin
 var typingContainer = document.getElementById("typing-container")
 var createPostContainer = document.getElementById("create-post-container")
 var postingContainer = document.getElementById("posting-container")
-//Buttons
+//Buttons Eoin
 var createPostButton = document.getElementById("create-post-button")
 var closePostButton = document.getElementById("close-button")
 var postButton = document.getElementById("post-button")
-//Local Storage
+//Local Storage Eoin
 var storedEmail = localStorage.getItem("signup_email")
 var storedUsername = localStorage.getItem("signup_username")
 
 
 
-// FUNCTIONS
-// Check if user has an account through local storage length
+// FUNCTIONS Eoin
+// Check if user has an account through local storage length Eoin
 if(localStorage.length === 0){
     hidePostingContainer()
     alert("Create an account on Sign-up page to post!")
@@ -32,7 +32,7 @@ function hidePostingContainer(){
     createPostContainer.style.visibility = "hidden"
 }
 
-// Posting Content
+// Posting Content Eoin
 function postContent (){
     var textboxContent = document.getElementById("text-box").innerText
     const post = document.createElement("div")
@@ -58,7 +58,7 @@ function postContent (){
     alert("Content Posted")
 }
 
-// EVENT LISTENERS
+// EVENT LISTENERS Eoin
 postButton.addEventListener("click", postContent)
 createPostButton.addEventListener("click", showTypingContainer)
 closePostButton.addEventListener("click", hideTypingContainer)

@@ -1,3 +1,4 @@
+//Profile page Eoin
 console.log(localStorage)
 
 var email = localStorage.getItem("signup_email")
