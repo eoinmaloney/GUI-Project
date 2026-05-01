@@ -1,5 +1,3 @@
-console.log(localStorage)
-
 var email = localStorage.getItem("signup_email")
 var username = localStorage.getItem("signup_username")
 var password = localStorage.getItem("signup_password")
@@ -28,7 +26,7 @@ function deleteAccount(){
 }
 
 /*      To do
-- Add an image input system to change profile picture
+- Add an image input system to change profile picture (DNF)
 */
 
 /*      Completed

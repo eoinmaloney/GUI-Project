@@ -16,12 +16,12 @@ var storedUsername = localStorage.getItem("signup_username")
 
 // FUNCTIONS
 // Check if user has an account through local storage length
-if(localStorage.length === 0){
+if(localStorage.length === 0){ //Checks that the local storage has no items
     hidePostingContainer()
     alert("Create an account on Sign-up page to post!")
 }
 
-// Show and Hide
+// Show and Hide by changing style
 function showTypingContainer(){
     typingContainer.style.visibility = "visible"
 }
@@ -35,9 +35,9 @@ function hidePostingContainer(){
 // Posting Content
 function postContent (){
     var textboxContent = document.getElementById("text-box").innerText
-    const post = document.createElement("div")
+    const post = document.createElement("div") // Creates a new div element in the page, will be used for making new posts
     post.id = "post"
-    postingContainer.appendChild(post)
+    postingContainer.appendChild(post) // Slots this HTML into the postingContainer div 
     post.innerHTML = `
         <div id="post-container">
             <div id="profile-section">
@@ -45,7 +45,7 @@ function postContent (){
             </div>
 
             <div id="username-section">
-                <p> ${storedUsername} </p>      
+                <p> ${storedUsername} </p>     
             </div>
                     
             <div id="writing-space">
@@ -54,7 +54,7 @@ function postContent (){
                         
         </div>
     
-    `
+    ` // I used string literals here that I found on the W3Schools website which act very similarlly to printf string literals in java
     alert("Content Posted")
 }
 
@@ -64,6 +64,7 @@ createPostButton.addEventListener("click", showTypingContainer)
 closePostButton.addEventListener("click", hideTypingContainer)
 
 /*      Sources
+- https://www.w3schools.com/jsref/prop_storage_length.asp
 - https://www.w3schools.com/jsref/met_document_createelement.asp
 - https://www.w3schools.com/jsref/met_node_appendchild.asp
 - https://www.w3schools.com/js/js_string_templates.asp
