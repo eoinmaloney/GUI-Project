@@ -1,3 +1,4 @@
+//Signup function Finn
 function saveSignup() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
@@ -15,7 +16,7 @@ function saveSignup() {
     }
     
 }
-
+//log in function finn
 function login() {
     var emailInput = document.getElementById("login-email").value;
     var passwordInput = document.getElementById("login-password").value;
