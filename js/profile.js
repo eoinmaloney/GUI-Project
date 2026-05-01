@@ -28,12 +28,12 @@ function deleteAccount(){
 }
 
 /*      To do
-- Check if user has an account
 - Add an image input system to change profile picture
-- Delete account function
 */
 
 /*      Completed
+- Delete account function
+- Check if user has an account
 - Redirect user if they don't have an account
 - Display user details on page
 */

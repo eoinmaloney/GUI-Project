@@ -4,7 +4,7 @@
 #posting-container {
     background-color: white;
     border-radius: 10px;
-    height: 1000px;
+    height: 2000px;
     margin: 10px;
     margin-bottom: 150px;
 }
@@ -13,15 +13,18 @@
 
 #post {
     border-radius: 10px;
-    margin: 20 auto;
+    margin: 20px auto;
     width: 98%;
-    height: 300px;
+    height: 100%px; /* No idea why but when I remove the px it breaks everything */
+    min-height: 50px;
     background-color: white;
     border: 2px solid gainsboro;
+    padding-bottom: 15px;
 }
 
 #post-container {
     display: flex;
+    align-items: center;
 }
 
 #profile-section {
@@ -42,14 +45,14 @@
 
 #writing-space { 
     padding: 20px;
-    margin-right: 10px;
-    margin-top: -90px;
+    margin: 10px 10px 10px 0;
     border: 2px solid gainsboro;
     color: black;
-    margin-left: 140px;
+    flex: 1;
     height: 80%;
     border-radius: 40px;
     background-color: rgb(247, 247, 247);
+    align-self: center;
 }
 
 /* CREATING A POST */

@@ -34,7 +34,7 @@ function hidePostingContainer(){
 
 // Posting Content
 function postContent (){
-    var textboxContent = document.getElementById("text-box").value
+    var textboxContent = document.getElementById("text-box").innerText
     const post = document.createElement("div")
     post.id = "post"
     postingContainer.appendChild(post)
@@ -49,7 +49,7 @@ function postContent (){
             </div>
                     
             <div id="writing-space">
-                <p> ${textboxContent} <p>
+                <p> ${textboxContent} </p>
             </div>
                         
         </div>
